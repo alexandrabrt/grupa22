@@ -45,7 +45,7 @@
 # print(7 is not 7)
 # print(7 is None)
 # print(1 in [1, 2, 3])
-# print('mere' in ['pere', 'mere', 'suc', 'alune'])
+print('mere' in ['pere', 'mere', 'suc', 'alune'])
 # print('mere' not in ['pere', 'mere', 'suc', 'alune'])
 # print('pan' in 'paine')
 # print('r' in 'paine')
