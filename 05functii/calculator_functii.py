@@ -22,21 +22,22 @@ def functie_matematica(numar_1: float, numar_2: float,
                        operatie_matematica: str) -> str:
     if operatie_matematica == '+':
         rezultat = "Suma nu se poate realiza"
-    else:
+    elif operatie_matematica == '-':
         rezultat = "Diferenta nu se poate realiza"
+    elif operatie_matematica == '*':
+        rezultat = "Inmultirea nu se poate realiza"
+    else:
+        rezultat = 'Impartirea nu se poate realiza'
     if numar_1 and numar_2:
         if operatie_matematica == '+':
             valoare_operatie = numar_1 + numar_2
-        else:
+        elif operatie_matematica == '-':
             valoare_operatie = numar_1 - numar_2
+        elif operatie_matematica == '*':
+            valoare_operatie = numar_1 * numar_2
+        elif numar_2 != 0:
+            valoare_operatie = numar_1 / numar_2
         rezultat = f"{numar_1} {operatie_matematica} {numar_2} = {valoare_operatie}"
-    return rezultat
-
-
-def functie_diferenta(numar_1: float, numar_2: float) -> str:
-    rezultat = "Diferenta nu se poate realiza"
-    if numar_1 and numar_2:
-        rezultat = f"{numar_1} - {numar_2} = {numar_1 - numar_2}"
     return rezultat
 
 
