@@ -12,3 +12,15 @@ for i in range(len(sir_numere)):
     else:
         sir_final.append(sir_numere[i])
 print(sir_final)
+
+
+#rezolvare2
+
+def par_duble(lista: list) -> list:
+    i = 0
+    while i < len(lista):
+        if lista[i] % 2 == 0:
+            lista.insert(i+1, lista[i] * 2)
+            i += 1
+        i += 1
+    return lista
