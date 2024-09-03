@@ -1,0 +1,35 @@
+1. Scrie un program care să afișeze un dicționar ce conține:
+
+Un număr dat de utilizator (număr întreg pozitiv) care reprezintă numărul de chei, cu prima cheie 1.
+Numărul maxim de chei admise: 15.
+Valorile pentru fiecare cheie reprezintă suma cumulativă a numerelor de la 1 până la cheia respectivă (de exemplu, cheie 4 - valoare 10, deoarece 1 + 2 + 3 + 4 = 10).
+Exemplu de Input și Output:
+
+Input:
+Utilizatorul introduce numărul 5.
+Output:
+Dictionar: {1: 1, 2: 3, 3: 6, 4: 10, 5: 15}
+(1 punct)
+
+
+2. Scrie o funcție care să numere câte elemente pozitive sunt într-un tuplu dat.
+
+Exemplu de Input și Output:
+
+Input:
+tuple_example = (-1, 3, -2, 4, 0)
+Output:
+result = 2 (deoarece sunt 2 numere pozitive: 3 și 4)
+(1 punct)
+
+
+3. Scrie o funcție care să împartă o listă dată în două liste in functie de un prag dat de la tastatura:
+una cu elemente mai mici decât un prag dat și alta cu elemente mai mari sau egale cu acel prag.
+
+Exemplu de Input și Output:
+
+Input:
+list_example = [5, 2, 9, 1, 5, 6], threshold = 5
+Output:
+result = ([2, 1], [5, 9, 5, 6])
+(2 puncte)
