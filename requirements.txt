@@ -12,3 +12,6 @@ six==1.16.0
 soupsieve==2.5
 tzdata==2024.1
 urllib3==2.2.2
+selenium~=4.23.1
+matplotlib~=3.9.2
+seaborn~=0.13.2
